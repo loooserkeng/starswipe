@@ -1,0 +1,396 @@
+{
+  "profiles": [
+    {
+      "id": "user_admin_01",
+      "email": "admin@starswipe.app",
+      "display_name": "Lead Moderator",
+      "role": "admin",
+      "status": "active",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "user_demo_02",
+      "email": "cinephile@starswipe.app",
+      "display_name": "Alex Cinema",
+      "role": "user",
+      "status": "active",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    }
+  ],
+  "actresses": [
+    {
+      "id": "actress_ananya",
+      "name": "Ananya Roy",
+      "slug": "ananya-roy",
+      "biography": "Renowned for dramatic versatility, expressive screen presence, and critically acclaimed performances in both Malayalam and Tamil art-house features.",
+      "industry": "Malayalam & Tamil Cinema",
+      "country": "India",
+      "primary_image_id": "img_ananya_1",
+      "status": "active",
+      "is_verified": true,
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "actress_meera",
+      "name": "Meera Nambiar",
+      "slug": "meera-nambiar",
+      "biography": "Award-winning performer celebrated for naturalistic acting, poise, and prominent roles in groundbreaking Malayalam cinema.",
+      "industry": "Malayalam Cinema",
+      "country": "India",
+      "primary_image_id": "img_meera_1",
+      "status": "active",
+      "is_verified": true,
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "actress_elena",
+      "name": "Elena Laurent",
+      "slug": "elena-laurent",
+      "biography": "International film star and festival favorite known for subtle psychological nuances in auteur-driven European cinema and English-language features.",
+      "industry": "International & European Cinema",
+      "country": "France",
+      "primary_image_id": "img_elena_1",
+      "status": "active",
+      "is_verified": true,
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "actress_priya",
+      "name": "Priya Sharma",
+      "slug": "priya-sharma",
+      "biography": "Dynamic performer with notable leading roles across commercial Hindi cinema, romantic comedies, and streaming thrillers.",
+      "industry": "Hindi Cinema",
+      "country": "India",
+      "primary_image_id": "img_priya_1",
+      "status": "active",
+      "is_verified": false,
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "actress_samantha",
+      "name": "Samantha Varma",
+      "slug": "samantha-varma",
+      "biography": "High-energy leading actress with multiple box-office successes across Telugu and Tamil feature productions.",
+      "industry": "Telugu & Tamil Cinema",
+      "country": "India",
+      "primary_image_id": "img_samantha_1",
+      "status": "active",
+      "is_verified": true,
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_malayalam",
+      "name": "Malayalam Cinema",
+      "slug": "malayalam",
+      "description": "Acclaimed performers in contemporary and classic Mollywood cinema.",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "cat_tamil",
+      "name": "Tamil Cinema",
+      "slug": "tamil",
+      "description": "Leading and award-winning talent from Kollywood.",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "cat_telugu",
+      "name": "Telugu Cinema",
+      "slug": "telugu",
+      "description": "Celebrated stars across Tollywood blockbusters and art cinema.",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "cat_hindi",
+      "name": "Hindi Cinema",
+      "slug": "hindi",
+      "description": "Iconic and rising performers across Bollywood and Indian streaming.",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "cat_international",
+      "name": "International Cinema",
+      "slug": "international",
+      "description": "Award-winning performers across European, Hollywood, and global films.",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    }
+  ],
+  "actress_categories": [
+    {
+      "actress_id": "actress_ananya",
+      "category_id": "cat_malayalam"
+    },
+    {
+      "actress_id": "actress_ananya",
+      "category_id": "cat_tamil"
+    },
+    {
+      "actress_id": "actress_meera",
+      "category_id": "cat_malayalam"
+    },
+    {
+      "actress_id": "actress_elena",
+      "category_id": "cat_international"
+    },
+    {
+      "actress_id": "actress_priya",
+      "category_id": "cat_hindi"
+    },
+    {
+      "actress_id": "actress_samantha",
+      "category_id": "cat_telugu"
+    },
+    {
+      "actress_id": "actress_samantha",
+      "category_id": "cat_tamil"
+    }
+  ],
+  "images": [
+    {
+      "id": "img_ananya_1",
+      "actress_id": "actress_ananya",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/src/assets/images/actress_portrait_ananya_1791620052694.jpg",
+      "source_url": "https://starswipe.app/portraits/ananya-roy",
+      "attribution": "Studio Editorial Archive",
+      "moderation_status": "approved",
+      "content_hash": "hash_ananya_01",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "approved_at": "2026-10-10T08:35:49.812Z",
+      "approved_by": "user_admin_01"
+    },
+    {
+      "id": "img_meera_1",
+      "actress_id": "actress_meera",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/src/assets/images/actress_portrait_meera_1791620065389.jpg",
+      "source_url": "https://starswipe.app/portraits/meera-nambiar",
+      "attribution": "Studio Editorial Archive",
+      "moderation_status": "approved",
+      "content_hash": "hash_meera_01",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "approved_at": "2026-10-10T08:35:49.812Z",
+      "approved_by": "user_admin_01"
+    },
+    {
+      "id": "img_elena_1",
+      "actress_id": "actress_elena",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/src/assets/images/actress_portrait_elena_1791620083028.jpg",
+      "source_url": "https://starswipe.app/portraits/elena-laurent",
+      "attribution": "Studio Editorial Archive",
+      "moderation_status": "approved",
+      "content_hash": "hash_elena_01",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "approved_at": "2026-10-10T08:35:49.812Z",
+      "approved_by": "user_admin_01"
+    },
+    {
+      "id": "img_priya_1",
+      "actress_id": "actress_priya",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/src/assets/images/actress_portrait_ananya_1791620052694.jpg",
+      "source_url": "https://starswipe.app/portraits/priya-sharma",
+      "attribution": "Studio Editorial Archive",
+      "moderation_status": "approved",
+      "content_hash": "hash_priya_01",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "approved_at": "2026-10-10T08:35:49.812Z",
+      "approved_by": "user_admin_01"
+    },
+    {
+      "id": "img_samantha_1",
+      "actress_id": "actress_samantha",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/src/assets/images/actress_portrait_meera_1791620065389.jpg",
+      "source_url": "https://starswipe.app/portraits/samantha-varma",
+      "attribution": "Studio Editorial Archive",
+      "moderation_status": "approved",
+      "content_hash": "hash_samantha_01",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "approved_at": "2026-10-10T08:35:49.812Z",
+      "approved_by": "user_admin_01"
+    },
+    {
+      "id": "img_1791621349821_j6rm",
+      "actress_id": "actress_ananya",
+      "uploader_id": "user_admin_01",
+      "storage_path": "/test/path.jpg",
+      "moderation_status": "approved",
+      "content_hash": "hash_1791621349821",
+      "created_at": "2026-10-10T08:35:49.821Z",
+      "approved_at": "2026-10-10T08:35:49.821Z",
+      "approved_by": "user_admin_01"
+    }
+  ],
+  "votes": [
+    {
+      "id": "v_1",
+      "user_id": "user_admin_01",
+      "actress_id": "actress_ananya",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_2",
+      "user_id": "user_demo_02",
+      "actress_id": "actress_ananya",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_3",
+      "user_id": "user_admin_01",
+      "actress_id": "actress_meera",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_4",
+      "user_id": "user_demo_02",
+      "actress_id": "actress_meera",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_5",
+      "user_id": "user_admin_01",
+      "actress_id": "actress_elena",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_6",
+      "user_id": "user_demo_02",
+      "actress_id": "actress_elena",
+      "vote_type": "dislike",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "v_7",
+      "user_id": "user_admin_01",
+      "actress_id": "actress_priya",
+      "vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z",
+      "updated_at": "2026-10-10T08:35:49.812Z"
+    }
+  ],
+  "vote_events": [
+    {
+      "id": "ve_v_1",
+      "voter_reference": "user_admin_01",
+      "actress_id": "actress_ananya",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_2",
+      "voter_reference": "user_demo_02",
+      "actress_id": "actress_ananya",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_3",
+      "voter_reference": "user_admin_01",
+      "actress_id": "actress_meera",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_4",
+      "voter_reference": "user_demo_02",
+      "actress_id": "actress_meera",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_5",
+      "voter_reference": "user_admin_01",
+      "actress_id": "actress_elena",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_6",
+      "voter_reference": "user_demo_02",
+      "actress_id": "actress_elena",
+      "previous_vote_type": null,
+      "new_vote_type": "dislike",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_v_7",
+      "voter_reference": "user_admin_01",
+      "actress_id": "actress_priya",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "ve_1791621349816_qlt5z",
+      "voter_reference": "test_voter_1791621349815",
+      "actress_id": "actress_ananya",
+      "previous_vote_type": null,
+      "new_vote_type": "like",
+      "created_at": "2026-10-10T08:35:49.816Z"
+    },
+    {
+      "id": "ve_1791621349818_dm3a5",
+      "voter_reference": "test_voter_1791621349815",
+      "actress_id": "actress_ananya",
+      "previous_vote_type": "like",
+      "new_vote_type": "dislike",
+      "created_at": "2026-10-10T08:35:49.818Z"
+    },
+    {
+      "id": "ve_undo_1791621349820",
+      "voter_reference": "test_voter_1791621349815",
+      "actress_id": "actress_ananya",
+      "previous_vote_type": "dislike",
+      "new_vote_type": "dislike",
+      "created_at": "2026-10-10T08:35:49.820Z"
+    }
+  ],
+  "reports": [],
+  "moderation_logs": [
+    {
+      "id": "mod_1",
+      "moderator_id": "user_admin_01",
+      "action": "APPROVE_INITIAL_BATCH",
+      "target_type": "image_batch",
+      "target_id": "initial_catalog",
+      "reason": "Initial verified catalog approval",
+      "created_at": "2026-10-10T08:35:49.812Z"
+    },
+    {
+      "id": "mod_1791621349821",
+      "moderator_id": "user_admin_01",
+      "action": "IMAGE_APPROVE",
+      "target_type": "image",
+      "target_id": "img_1791621349821_j6rm",
+      "created_at": "2026-10-10T08:35:49.821Z"
+    }
+  ],
+  "copyright_claims": [],
+  "guest_sessions": []
+}

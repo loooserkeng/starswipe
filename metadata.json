@@ -1,0 +1,6 @@
+{
+  "name": "StarSwipe",
+  "description": "Premium actress discovery and live ranking platform with card swipe gestures, verified profiles, community uploads, and real-time leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
